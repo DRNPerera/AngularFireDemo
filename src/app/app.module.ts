@@ -8,12 +8,14 @@ import { SignupInterfaceComponent } from './ui_interfaces/signup-interface/signu
 import { AppRoutingModule } from './app-routing.module';
 import { FormsModule } from '@angular/forms';
 import { AuthService } from './auth-service';
+import { GetdetailsComponent } from './ui_interfaces/getdetails/getdetails.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginInterfaceComponent,
-    SignupInterfaceComponent
+    SignupInterfaceComponent,
+    GetdetailsComponent
   ],
   imports: [
     BrowserModule,
