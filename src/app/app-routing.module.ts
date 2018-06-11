@@ -5,8 +5,8 @@ import { LoginInterfaceComponent } from './ui_interfaces/login-interface/login-i
 import { GetdetailsComponent } from './ui_interfaces/getdetails/getdetails.component';
 
 const appRoutes: Routes = [
-    { path:'' , component: SignupInterfaceComponent },
-    { path:'login' , component: LoginInterfaceComponent},
+    // { path:'' , component: SignupInterfaceComponent },
+    { path:'' , component: LoginInterfaceComponent},
     { path:'getdetails' , component: GetdetailsComponent} 
 
 ];
